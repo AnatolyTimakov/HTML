@@ -1,13 +1,16 @@
 body {
 	background-color: #f8f8f8;
 }
-.menu li {
+.header li {
 	font-style: italic;
 	font-size: 15px;
 	list-style-type: none;
 }
-.menu li a{
+.header li a{
 	color: #8B00FF;
+}
+.header a:hover {
+	color: green;
 }
 .desc h2{
 	color: black;
@@ -51,4 +54,18 @@ input[type="text"][size="5000"]
 	text-align: left;
 	width: 350px;
 	height: 60px;
+}
+input[placeholder="Ваша электронная почта"]:focus
+{
+	color: blue;
+	background-color: grey 
+}
+input[type="text"]:focus
+{
+	text-transform: uppercase;
+}
+.desc p:first-letter
+{
+	font-size: 28px;
+	color:red;
 }
