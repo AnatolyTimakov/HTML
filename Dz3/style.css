@@ -1,7 +1,21 @@
 body {
 	background-color: #f8f8f8;
 }
+hr {
+	width: 100%;
+	color: black;
+	background-color: black;
+}
+.header {
+	height: 140px;
+	text-align: right;
+}
+.header img{
+	margin-left: 1500px;
+	float: left;
+}
 .header li {
+	display: inline;
 	font-style: italic;
 	font-size: 15px;
 	list-style-type: none;
@@ -12,11 +26,37 @@ body {
 .header a:hover {
 	color: green;
 }
+.container {
+	display: flex;
+	width: 200px;
+	padding: 10px;
+	margin: auto;
+	background-color: grey;
+}
+footer {
+	position: fixed;
+	background-color: grey;
+	left:0;
+	bottom: 0;
+	width: 100%;
+	text-align: right;
+}
+footer p{
+	margin-top: 20px;
+	margin-right: 40px;
+	clear: both;
+}
+.desc img{
+	float:left;
+}
 .desc h2{
 	color: black;
 	font-size: 18px;
 	font-weight: 400;
 	background-color: #eaeaea;
+}
+#param{
+	clear: both;
 }
 #shortdesc{
 	color: #707070;
@@ -36,6 +76,13 @@ body {
 	font-size: 20px;
 	font-weight: 300;
 	list-style-image: url(Marker.png);
+}
+.Notebooks figcaption{
+	text-align: center;
+}
+.Notebooks{
+	max-width: 450px;
+	float: left;
 }
 input[type="text"]
 {
@@ -68,4 +115,29 @@ input[type="text"]:focus
 {
 	font-size: 28px;
 	color:red;
+}
+input[type="button"][value="Купить"]
+{
+	padding: 10px;
+	font-size: 20px;
+}
+input[type="button"][value="Купить"]:hover
+{
+	background-color: #aaa;
+}
+input[type="button"][value="Купить"]:active
+{
+  	background-color: #333;
+  	border-color: #333;
+  	color: #eee;
+}
+@media screen and (max-width: 750px) {
+	div{width: 100%;}
+	.header img {margin-left: 50%;}
+	body{ font-size: 1.0em; background: lightblue }
+	.Notebooks{float: none;}
+	.Notebooks figcaption{width: 10em;}
+	.Notebooks img{width: 10em; height: 7em;}
+	footer {position: relative; height: 2em;}
+	footer p{margin-top: 2px; margin-right: 1px;}
 }

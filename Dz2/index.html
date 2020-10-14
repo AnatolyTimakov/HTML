@@ -3,20 +3,16 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="C:/Users/a.timakov/HTML/Dz3/style.css">
 	<meta charset="UTF-8">
-	<title>Главная</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<style>
-		#footer{
-			position: fixed;
-			left:0; bottom: 0;
-		}
-		hr {
-			width: 5000px;
-			color: black;
-			background-color: black;
-		}
+		button {margin-top: 20px;}
 	</style>
+	<title>Главная</title>
 </head>
 <body>
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<div class = "header">
 		<h2>Меню</h2>
 		<img src="C:/Users/a.timakov/HTML/Dz4/Logo.png"
@@ -30,9 +26,25 @@
 	</div>
 	<h2>NoteShop</h2>
 	<p>Благодарим за визит нашего интернет-магазина NoteShop</p>
-	<div id="footer">
-		<hr>
-		<p style="margin-left: 20px">&copy Все права защищены</p>
+	<div class = "container">
+		<p>Тест</p>
 	</div>
+	<button type="button" class="btn btn-primary" data-toggle="popover"
+  	title="Сообщение" data-content="Bootstrap 4 работает">
+    	Bootstrap Button
+	</button>
+	<script>
+    $(function () {
+        $('[data-toggle="popover"]').popover({trigger:'hover'});
+    });
+	</script>
+	<footer>
+		<hr>
+		<p>&copy Все права защищены</p>
+	</footer>
+	<!--<div class="footer">
+		<hr>
+		<p>&copy Все права защищены</p>
+	</div>!-->
 </body>
 </html>
