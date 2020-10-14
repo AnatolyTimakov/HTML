@@ -1,5 +1,7 @@
+@color: #333;
 body {
 	background-color: #f8f8f8;
+	text-shadow: 2px 3px 4px #ccc;
 }
 hr {
 	width: 100%;
@@ -12,6 +14,7 @@ hr {
 }
 .header img{
 	margin-left: 1500px;
+	margin-top: -30px;
 	float: left;
 }
 .header li {
@@ -32,6 +35,7 @@ hr {
 	padding: 10px;
 	margin: auto;
 	background-color: grey;
+	box-shadow: 2px 3px 4px #ccc;
 }
 footer {
 	position: fixed;
@@ -127,8 +131,14 @@ input[type="button"][value="Купить"]:hover
 }
 input[type="button"][value="Купить"]:active
 {
-  	background-color: #333;
-  	border-color: #333;
+	background-color: @color;
+  	border-color: @color;
+  	color: #eee;
+}
+input[type="button"][value="Отправить"]:active
+{
+	background-color: @color;
+  	border-color: @color;
   	color: #eee;
 }
 @media screen and (max-width: 750px) {
