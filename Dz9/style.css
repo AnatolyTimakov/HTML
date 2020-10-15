@@ -1,0 +1,451 @@
+ul { 
+	padding-inline-start: 0;
+	margin-block-start: 0;
+	margin-block-end: 0;
+ }
+p{
+	padding-inline-start: 0;
+	margin-block-start: 0;
+	margin-block-end: 0;
+}
+body{
+ 	margin: 0px;
+ }
+ @font-face
+ {
+ 	font-family: 'socialico';
+ 	src: url(socialico.ttf);
+ }
+.headerbg{
+	position: absolute;
+	background-image: url(images/header-bg.png);
+	width: 1280px;
+	height: 323px;
+	left: 0px;
+	top: 0px;
+}
+.picblock{
+	width: 469px;
+	height: 214px;
+	background-color: #ffffff;
+}
+#name{
+	position: absolute;
+	height: 44px;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+	color: #ffffff;
+	font-family: "ArialMT";
+	font-size: 60px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	left: 50px;
+	top: 50px;
+}
+#name p{
+	display: inline;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+}
+#checkicon{
+	list-style-image: url(images/check_icon.png);
+}
+.shortdesc li{
+	line-height: 35px;
+}
+.shortdesc{
+	position: absolute;
+	width: 550px;
+	height: 127px;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+	color: #ffffff;
+	font-family: "ArialMT";
+	font-size: 20px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	text-align: left;
+	left: 86px;
+	top: 145px;
+}
+#imagebox{
+	position: absolute;
+	float:left;
+	width: 469px;
+	height: 214px;
+	background-color: #ffffff;
+	left: 761px;
+	top: 50px;
+}
+.about{
+	position: absolute;
+	background-image: url(images/bg.png);
+	width: 1280px;
+	height: 2863px;
+	top: 323px;
+}
+#abhead{
+	position: absolute;
+	width: 254px;
+	height: 28px;
+	color: #445161;
+	font-family: "ArialMT";
+	font-size: 30px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;;
+	text-align: left;
+	left: 50px;
+	top: 49px;
+}
+.abdesc{
+	width: 649px;
+	height: 63px;
+	color: #333333;
+	font-family: "ArialMT";
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-align: left;
+}
+.abdesc p{
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+}
+#videobox{
+	position: absolute;
+	left: 800px;
+	top: 50px;
+	float: left;
+	width: 430px;
+	height: 245px;
+	background-color: #445161;
+}
+#adv{
+	position: absolute;
+	left: 0px;
+	top: 347px;
+	width: 1280px;
+	height: 410px;
+	background-color: lightgrey;
+}
+#advhead{
+	position: absolute;
+	height: 28px;
+	color: #445161;
+	font-family: "ArialMT";
+	font-size: 30px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 36px;
+	text-align: left;
+	left: 464px;
+	top: 47px;
+}
+#advlist{
+	position: absolute;
+	width: 526px;
+	height: 63px;
+	color: #333333;
+	font-family: "ArialMT";
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-align: left;
+	left: 91px;
+	top: 104px;
+}
+#plusicon{
+	list-style-image: url(images/Layer_2.png);
+}
+#screenshots{
+	position: absolute;
+	width: 1280px;
+	height: 487px;
+	left: 0px;
+	top: 757px;
+}
+#screenhead{
+	position: absolute;
+	width: 138px;
+	height: 22px;
+	color: #445161;
+	font-family: "ArialMT";
+	font-size: 30px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 36px;
+	text-align: left;
+	left: 571px;
+	top: 51px;
+}
+.screentext{
+	height: 23px;
+	color: #445161;
+	font-family: "ArialMT";
+	font-size: 24px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 30px;
+	text-align: left;
+}
+.screendesc{
+	width: 359px;
+	height: 108px;
+	color: #333333;
+	font-family: "ArialMT";
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-align: left;
+}
+#reviews{
+	position: absolute;
+	left: 0px;
+	top: 1244px;
+	width: 1280px;
+	height: 429px;
+	background-color: lightgrey;
+}
+#revhead{
+	position: absolute;
+	width: 111px;
+	height: 22px;
+	color: #445161;
+	font-family: "ArialMT";
+	font-size: 30px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 36px;
+	text-align: left;
+	left: 585px;
+	top: 50px;
+}
+.revtext{
+	width: 436px;
+	height: 64px;
+	color: #333333;
+	font-family: "Arial - Italic MT";
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 18px;
+	text-align: left;
+}
+.revauth{
+	height: 10px;
+	color: #989898;
+	font-family: "Arial MT";
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 18px;
+	text-align: left;
+}
+#buy{
+	position: absolute;
+	width: 1280px;
+	height: 656px;
+	top: 1673px;
+}
+#buyhead{
+	position: absolute;
+	height: 28px;
+	color: #445161;
+	font-family: "ArialMT";
+	font-size: 30px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 36px;
+	text-align: left;
+	left: 572px;
+	top: 50px;
+}
+.pricename{
+	width: 90px;
+	height: 18px;
+	color: #ffffff;
+	font-family: "ArialMT";
+	font-size: 24px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 30px;
+	text-align: left;
+}
+.price{
+	width: 87px;
+	height: 35px;
+	color: #445162;
+	font-family: "ArialMT";
+	font-size: 40px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 30px;
+	text-align: left;
+}
+.priceatt{
+	width: 242px;
+	height: 86px;
+	color: #ffffff;
+	font-family: "ArialMT";
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-align: left;
+}
+input[type="button"][value="buy"]{
+	width: 260px;
+	height: 40px;
+	background-color: #ffffff;
+	color: #445161;
+	font-family: "Arial - Bold MT";
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 18px;
+	border-radius: 10px;
+	text-transform: uppercase;
+}
+#contacts{
+	position: absolute;
+	background-image: url(images/bg3.png);
+	width: 1280px;
+	height: 509px;
+	top: 2328px;
+}
+#conthead{
+	position: absolute;
+	width: 117px;
+	height: 22px;
+	color: #ffffff;
+	font-family: "ArialMT";
+	font-size: 30px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 36px;
+	text-align: left;
+	left: 582px;
+	top:53px;
+}
+input[type="text"]{
+	background-color: #ffffff;
+	color: #445162;
+	font-family: "ArialMT";
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-align: left;
+	padding-left: 10px;
+	border-radius: 10px;
+}
+input[type="text"][placeholder="Your name:"]{
+	position: absolute;
+	width: 500px;
+	height: 40px;
+	left: 249px;
+	top: 106px;
+}
+input[type="text"][placeholder="Your email:"]{
+	position: absolute;
+	width: 500px;
+	height: 40px;
+	left: 249px;
+	top: 167px;
+}
+textarea[placeholder="Your message:"]{
+	position: absolute;
+	width: 500px;
+	height: 170px;
+	background-color: #ffffff;
+	color: #445162;
+	font-family: "ArialMT";
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-align: left;
+	padding-left: 10px;
+	border-radius: 10px;
+	left: 249px;
+	top: 229px;
+}
+.continfo{
+	width: 165px;
+	height: 15px;
+	color: #ffffff;
+	font-family: "ArialMT";
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-align: left;
+}
+#social{
+	position: absolute;
+	width: 240px;
+	height: 42px;
+	color: #ffffff;
+	font-family: socialico;
+	font-size: 60px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: 1.5px;
+	line-height: 24px;
+	text-align: left;
+	left: 794px;
+	top: 293px;
+}
+input[type="button"][value="Send"]{
+	position: absolute;
+	width: 140px;
+	height: 40px;
+	background-color: #ffffff;
+	color: #445162;
+	font-family: "Arial - Bold MT";
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-transform: uppercase;
+	border-radius: 10px;
+	left: 429px;
+	top: 420px;
+}
+footer{
+	position: absolute;
+	text-align: center;
+	width: 1280px;
+	height: 26px;
+	background-color: lightgrey;
+	padding-top: 3px;
+	top: 3160px;
+}
